@@ -7,6 +7,7 @@ Built with Python, Streamlit, and requests library. Perfect for daily inspiratio
 ## Screenshots
 ![alt text](aiscreenshot-1.png)
 
+<img width="1366" height="768" alt="aiscreenshot" src="https://github.com/user-attachments/assets/81ccfad0-14e8-49fb-89bb-4fc0e8308297" />
 
 ## Features
 
@@ -15,6 +16,7 @@ Built with Python, Streamlit, and requests library. Perfect for daily inspiratio
 - Fetches **fun facts** from Useless Facts API  
 - Responsive **Streamlit UI** with buttons and styling  
 - **Caching** implemented to reduce API calls and improve performance
+  
 ## Installation
 
 1. Clone the repo:
@@ -53,4 +55,10 @@ The app will be deployed on [Streamlit Cloud](https://streamlit.io/cloud) — li
 - requests library  
 - Public APIs: Quotable, Official Joke API, Useless Facts API
 
+
+
+## Authors
+
+- github - [@ankithajade](https://github.com/ankithajade)
+- linkedin -  https://www.linkedin.com/in/ankitha-jade
 
