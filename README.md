@@ -45,7 +45,7 @@ streamlit run app.py
 ```
 ## Deployment
 
-The app will be deployed on [Streamlit Cloud](https://streamlit.io/cloud) — live link coming soon!
+The app will be deployed on [Streamlit Cloud](https://ai-content-generator-kpadlj7x4wzslskxlqhlv5.streamlit.app/) — live link coming soon!
 
 
 
