@@ -7,7 +7,6 @@ Built with Python, Streamlit, and requests library. Perfect for daily inspiratio
 ## Screenshots
 ![alt text](aiscreenshot-1.png)
 
-<img width="1366" height="768" alt="aiscreenshot" src="https://github.com/user-attachments/assets/81ccfad0-14e8-49fb-89bb-4fc0e8308297" />
 
 ## Features
 
@@ -45,7 +44,7 @@ streamlit run app.py
 ```
 ## Deployment
 
-The app will be deployed on [Streamlit Cloud](https://ai-content-generator-kpadlj7x4wzslskxlqhlv5.streamlit.app/) — live link coming soon!
+The app will be deployed on [Streamlit Cloud](https://ai-content-generator-kpadlj7x4wzslskxlqhlv5.streamlit.app/)
 
 
 
