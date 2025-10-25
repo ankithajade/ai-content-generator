@@ -5,7 +5,7 @@ A Streamlit web app that fetches **motivational quotes, random jokes, and fun fa
 Built with Python, Streamlit, and requests library. Perfect for daily inspiration and fun!
 
 ## Screenshots
-![alt text](aiscreenshot-1.png)
+![alt text](screenshot.png)
 
 
 ## Features
