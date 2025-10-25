@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+html, body, [class*="st"] {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.stApp {
+    background: linear-gradient(135deg, #0f1720 0%, #12121a 40%, #0b1220 100%);
+    color: #e6eef8;
+}
+
+.main-card {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto 18px auto;
+    padding: 36px 32px;
+    border-radius: 14px;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.03);
+    box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+    text-align: center;
+}
+
+/* Button bar: flexbox for perfect centering and spacing */
+.button-bar {
+    display: flex;
+    max-width: 500px;      /* match .main-card width */
+    width: 100%;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    gap: 24px;             /* adjust for spacing between buttons */
+}
+
+/* Force each button column to fill the available row space */
+.button-bar > div {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 800;
+    font-size: clamp(24px, 5vw, 44px);
+    letter-spacing: -0.5px;
+    margin-bottom: 6px;
+    color: #ffffff;
+    text-shadow: 0 6px 20px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+.hero-sub {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600;
+    color: #b8c6d6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.quote-card {
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 12px 0;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.04);
+}
+
+/* Button row: max-width matches card, centered, fixed button widths */
+div[data-testid="stHorizontalBlock"] {
+    display: flex !important;
+    justify-content: center;     /* Center the whole button group */
+    align-items: center;
+    width: 100%;
+    max-width: 500px;            /* Match main-card */
+    margin: 0 auto;
+    gap: 28px;                   /* Space BETWEEN buttons */
+    padding: 0;
+}
+
+/* Each button container: fixed width for consistent layout */
+div[data-testid="stHorizontalBlock"] > div {
+    flex: 0 0 160px;             /* Each button container is 160px wide */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Button style */
+div.stButton > button {
+    width: 100%;
+    min-width: 0;
+    max-width: 180px;      /* controls button width, tweak as you like */
+    margin: 0;
+    background: linear-gradient(90deg, #ff7eb3, #ff758c);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.75em 1.1em;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 118, 160, 0.4);
+}
+
+div.stButton > button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(255, 118, 160, 0.6);
+    cursor: pointer;
+}
+/* Remove Streamlit's default vertical spacers if present */
+div[class^="css-"] {
+    height: auto !important;
+    min-height: 0 !important;
+}
